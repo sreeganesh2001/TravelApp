@@ -1,0 +1,48 @@
+<div class="hotel">
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Hotel Booking Form</title>
+  </head>
+  <body>
+
+      <h2>Hotel Booking Form</h2>
+
+      <form action="submit_hotel_booking.php" method="post">
+
+          <label for="destination">Destination:</label>
+          <input type="text" id="destination" name="destination" required>
+
+          <label for="check-in-date">Check-in Date:</label>
+          <input type="date" id="check-in-date" name="check-in-date" required>
+
+          <label for="check-out-date">Check-out Date:</label>
+          <input type="date" id="check-out-date" name="check-out-date" required>
+
+          <label for="room-type">Room Type:</label>
+          <select id="room-type" name="room-type" required>
+              <option value="single">Single Room</option>
+              <option value="double">Double Room</option>
+              <option value="suite">Suite</option>
+              <!-- Add more options as needed -->
+          </select>
+
+          <label for="guest-count">Number of Guests:</label>
+          <select id="guest-count" name="guest-count" required>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <!-- Add more options as needed -->
+          </select>
+
+          <button type="submit">Book Now</button>
+
+      </form>
+
+  </body>
+  </html>
+  </div>
+  <!-- end of hotel  -->

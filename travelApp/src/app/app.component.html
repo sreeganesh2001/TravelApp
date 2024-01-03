@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="toolbar" role="banner">
+    <img alt="Angular Logo" src="../assets/logo3.png" />
+    <span>
+      <h1>JOY Trip</h1>
+    </span>
+    <div class="spacer"></div>
+    <div class="navigation">
+      <a routerLink="employee"><i class="fa-solid fa-house"></i> Home</a>
+      <a href=""><i class="fa-solid fa-ticket"></i> Book Tickets</a>
+      <a href=""><i class="fa-solid fa-suitcase"></i> Travel Packages</a>
+      <a href=""><i class="fa-solid fa-address-card"></i> About Us</a>
+      <a href=""><i class="fa-solid fa-address-book"></i> Contact Us</a>
+      <a href=""><i class="fa-solid fa-user" style="color: black;"></i> Sign Up <i
+          class="fa-solid fa-right-to-bracket"></i></a>
+    </div>
+    <img style="width: 250px;height: 95px;margin-top: -35px;" src="../assets/nav1.png" alt="">
+  </div>
+  <div class="content">
+    <a routerLink="flight"><i class="fa-solid fa-plane-departure"></i>
+      <div class="spacer"></div>Flight Booking
+    </a>
+    <a routerLink="car"><i class="fa-solid fa-car-side"></i>
+      <div class="spacer"></div>Car Booking
+    </a>
+    <a routerLink="bus"><i class="fa-solid fa-bus"></i>
+      <div class="spacer"></div>Bus Booking
+    </a>
+    <a routerLink="hotel"><i class="fa-solid fa-hotel"></i>
+      <div class="spacer"></div>Hotel Booking
+    </a>
+  </div>
+  <div class="promotion">
+    <a href="">Why choose JOY Trip </a>
+    <a href="">Flight Deals</a>
+    <a href="">Hotel Bliss</a>
+    <a href="">Car Rentals</a>
+    <a href="">User Friendly Interface</a>
+    <a href="">Global Coverage</a>
+    <a href="">Exclusuive Discount</a>
+    <a href="">Coustomer Satisfaction</a>
+  </div>
+  <div class="home">
+    <!-- <app-home></app-home> -->
+    <body>
+      <main>
+        <h2>Welcome to our {{name}} Travel Platform</h2>
+        <p>Discover amazing destinations, find the best deals, and plan your dream vacation with ease.</p>
+        <!-- Add more content, images, buttons, etc. as needed -->
+      </main>
+  <router-outlet></router-outlet>
+</body>
+

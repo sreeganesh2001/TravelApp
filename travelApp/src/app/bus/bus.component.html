@@ -1,0 +1,42 @@
+
+<div class="bus">
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Bus Booking Form</title>
+  </head>
+  <body>
+
+      <h2>Bus Booking Form</h2>
+
+      <form action="submit_bus_booking.php" method="post">
+
+          <label for="departure-city">Departure City:</label>
+          <input type="text" id="departure-city" name="departure-city" required>
+
+          <label for="destination-city">Destination City:</label>
+          <input type="text" id="destination-city" name="destination-city" required>
+
+          <label for="departure-date">Departure Date:</label>
+          <input type="date" id="departure-date" name="departure-date" required>
+
+          <label for="passenger-count">Number of Passengers:</label>
+          <select id="passenger-count" name="passenger-count" required>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <!-- Add more options as needed -->
+          </select>
+
+          <button type="submit">Book Now</button>
+
+      </form>
+
+  </body>
+  </html>
+  </div>
+
+  <!-- end of bus  -->

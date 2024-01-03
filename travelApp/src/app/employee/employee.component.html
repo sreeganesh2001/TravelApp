@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Details</title>
+
+</head>
+<body>
+
+  <div class="container">
+    <h1>Employee Details</h1>
+
+
+    <table>
+      <thead>
+
+        <tr>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th *ngIf="user">Salary</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let item of employees">
+           <tr>
+          <td>{{item.name}}</td>
+          <td>{{item.position}}</td>
+          <td>{{item.email}}</td>
+          <td>{{item.phone}}</td>
+          <td *ngIf="user">{{item.salary}}</td>
+        </tr>
+       </tbody>
+
+    </table>
+    <button (click)="click()">Hide</button>
+    <button (click)="show()">Show</button>
+
+  </div>
+
+</body>
+</html>
+

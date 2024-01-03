@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  height: 100%;
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 8px 0;
+}
+
+p {
+  margin: 0;
+}
+
+.spacer {
+  flex:0.2;
+}
+
+.toolbar {
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color:orange;
+  color: white;
+  font-weight: 600;
+}
+
+.toolbar img {
+  margin: 0 16px;
+  border-radius: 150px;
+  height: 50px;
+  width: 60px;
+}
+.toolbar span h1{
+ color:black;
+ font-style:italic;
+ font-family:cursive;
+
+}
+.toolbar span{
+  border-right:2px solid black;
+  padding-right: 15px;
+}
+.navigation{
+  padding: 8px 4px;
+}
+.navigation a{
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  padding: 5px 10px;
+  font-size:medium;
+  margin: 2px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-style:normal;
+}
+.navigation a:hover{
+ transform: scale(1.1);
+}
+.content{
+  position:absolute ;
+  top:60px;
+  left: 0px;
+  background-color:white;
+  width: 16.2%;
+  padding: 10px;
+}
+.content a{
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: orange;
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: medium;
+  border: 2px solid white;
+  margin: 6px;
+}
+.promotion{
+  position: absolute;
+  background-color:white;
+  top:60px;
+  right: 0px;
+  width: 10%;
+  padding: 10px;
+}
+.promotion a{
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgba(241, 240, 237, 0.963);
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: medium;
+  border: 2px solid white;
+  margin: 6px;
+
+}
+.home{
+  position: absolute;
+  background-color: rgba(241, 240, 237, 0.963);
+  top:60px;
+  right: 11%;
+  width: 70%;
+  padding: 10px;
+
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #555;
+}

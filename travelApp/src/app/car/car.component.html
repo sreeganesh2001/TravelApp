@@ -1,0 +1,44 @@
+
+<div class="car">
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Car Booking Form</title>
+  </head>
+  <body>
+
+      <h2>Car Booking Form</h2>
+
+      <form action="submit_car_booking.php" method="post">
+
+          <label for="pickup-location">Pickup Location:</label>
+          <input type="text" id="pickup-location" name="pickup-location" required>
+
+          <label for="drop-off-location">Drop-off Location:</label>
+          <input type="text" id="drop-off-location" name="drop-off-location" required>
+
+          <label for="pickup-date">Pickup Date:</label>
+          <input type="date" id="pickup-date" name="pickup-date" required>
+
+          <label for="drop-off-date">Drop-off Date:</label>
+          <input type="date" id="drop-off-date" name="drop-off-date" required>
+
+          <label for="car-type">Car Type:</label>
+          <select id="car-type" name="car-type" required>
+              <option value="economy">Economy</option>
+              <option value="standard">Standard</option>
+              <option value="luxury">Luxury</option>
+              <!-- Add more options as needed -->
+          </select>
+
+          <button type="submit">Book Now</button>
+
+      </form>
+
+  </body>
+  </html>
+  </div>
+
+  <!-- end of car -->
